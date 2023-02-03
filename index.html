@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\style.css">
     <title>Coffee Masters</title>
 </head>
 <body>
     <section>
         <div>
-            <h1 class="hero"><img src="assets\coffee_masters_logo.png" alt="coffee cup" width="25" height="25" class="logo"/> Coffee Masters</h1>
+            <h1><img src="assets\coffee_masters_logo.png" alt="coffee cup" width="25" height="25" class="logo"/> Coffee Masters</h1>
         </div>
     </section>
     <section>
-        <div>
+        <div class="first">
             <h3 class="Items">ITEMS</h2>
             <h4 class="cappuccino">1x Cappuccino $3.35</h2>
             <p class="cappuccino">Lite Foam</p>
@@ -23,18 +24,18 @@
             <h4 class="croissant">1x Croissant $2.45</h2>
                 <p class="croissant">Butter</p>
         </div>
-        <div>
-            <h3 class="Items">NAME</h2>
+        <div class="name">
+            <h3>NAME</h2>
             <input type="text" class="order" placeholder="Name">Name For Order</input>
         </div>
-        <div>
-            <h3 class="Items">PAYMENT</h2>
+        <div class="payment">
+            <h3 class="payment">PAYMENT</h2>
             <input type="text" class="payment" placeholder="text">Card Number</input>
             <input type="text" class="payment" placeholder="text">CCV Number</input>
     </section>
 <section>
     <div>
-        <table>
+        <table class="table">
             <tr>
               <th>Subtotal:</th>
               <th>$9.65</th>
@@ -48,6 +49,11 @@
               <td>$10.47</td>
             </tr>
           </table>
+    </div>
+</section>
+<section>
+    <div>
+        <button class="button">Place Order</button>
     </div>
 </section>
 
